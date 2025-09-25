@@ -29,5 +29,6 @@ Here's what I'm using for this project -
 - **AWS CodeBuild**:  CodeBuild will take over the build process. It'll compile the source code, run tests, and produce ready-to-deploy software packages automatically.
 - **AWS CodeDeploy**:  CodeDeploy will automate the deployment process across EC2 instances.
 - **AWS CodePipeline**:  CodePipeline will automate the entire process from GitHub to CodeDeploy, integrating build, test, and deployment steps into one efficient workflow.
+- **AWS S3** : Artifact storage & integration with CodePipeline
 
 
